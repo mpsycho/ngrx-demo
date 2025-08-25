@@ -1,0 +1,9 @@
+Below is a list of all commits with descriptions of the changes during the development process
+
+Initial commit:
+Cloned a repository to start working on the project
+
+commit 2:
+Installed and initialized NgRx store, created state folder, added product reducer, and dispatched an action
+commands: npm install @ngrx/store@16
+install Redux DevTools: Add the browser extension, Run npm install @ngrx/store-devtools@16, initialize StoreDevtoolsModule in the app module
