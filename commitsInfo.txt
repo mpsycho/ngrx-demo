@@ -17,3 +17,9 @@ Create selectors
 commit 5:
 Create effects
 install library: npm install @ngrx/effects@16
+
+commit 6:
+Registering Router Store
+Add and use ngrx/router-store: npm install @ngrx/router-store@16
+Create selector using selectRouteParams and set the store with ngrxOnInitEffects
+Navigating in effects

@@ -62,7 +62,7 @@ export const productsReducer = createReducer(
     on(ProductsAPIActions.productUpdatedSuccess, (state, {product}) => ({
         ...state,
         loading: false,
-        products: state.products.map(existingProduct =>
+        products: state.products.map((existingProduct) =>
             existingProduct.id === product.id ? product : existingProduct),
     })),
     on(ProductsAPIActions.productUpdatedFail, (state, {message}) => ({
