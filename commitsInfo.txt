@@ -23,3 +23,7 @@ Registering Router Store
 Add and use ngrx/router-store: npm install @ngrx/router-store@16
 Create selector using selectRouteParams and set the store with ngrxOnInitEffects
 Navigating in effects
+
+commit 7:
+Managing collections with entity adapter
+npm install @ngrx/entity@16
