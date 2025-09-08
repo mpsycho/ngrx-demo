@@ -27,3 +27,6 @@ Navigating in effects
 commit 7:
 Managing collections with entity adapter
 npm install @ngrx/entity@16
+
+commit 8:
+Add component store: npm install @ngrx/component-store@16
